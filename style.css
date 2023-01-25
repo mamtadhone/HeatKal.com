@@ -1,0 +1,22 @@
+.heading{
+  margin-top: 66px;
+  margin-bottom: 44px;
+  margin-left: 553px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.navigations{
+  margin-left: 360px;
+  margin-bottom: 53px;
+}
+.navigations a{
+  margin-right: 30px;
+  padding: 13px 18px;
+  border-radius: 10%;
+}
+
+.navigations .active{
+  background-color: red;
+  color: white;
+}
