@@ -1,22 +1,23 @@
-.heading{
-  margin-top: 66px;
-  margin-bottom: 44px;
-  margin-left: 553px;
+.wrapper {
+  text-align: center;
+}
+
+.heading {
+  margin: 66px 0 44px 0;
   font-weight: bolder;
   font-size: xx-large;
 }
 
-.navigations{
-  margin-left: 360px;
+.navigations {
   margin-bottom: 53px;
 }
-.navigations a{
+.navigations a {
   margin-right: 30px;
   padding: 13px 18px;
   border-radius: 10%;
 }
 
-.navigations .active{
+.navigations .active {
   background-color: red;
   color: white;
 }
