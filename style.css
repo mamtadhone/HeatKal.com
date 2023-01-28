@@ -70,9 +70,23 @@
   margin: 0 auto;
 }
 
+
 .options h1{
   font-weight: bold;
-  font-size: large;
+  font-size: 17px;
+}
+
+.bttn{
+  display: inline-block;
+  margin: 30px 15px; 
+  color: white;
+  border-radius: 10%;
+}
+.getStarted{
+  background-color: red;
+}
+.learnMore{
+  background-color: black;
 }
 
 
@@ -91,12 +105,37 @@
 
   .intro1 p{
     font-weight:bolder;
-    font-size:xx-large;
+    font-size:30px;
     margin-bottom: 30px;
   }
   .intro2 p{
     font-size:large;
   }
+  .options{
+    max-width: unset;
+  }
+
+  .options img{
+    height: 135px;
+    width: 135px;
+  }
+
+  .options h1{
+    font-weight:bolder;
+    font-size:17px;
+  }
+
+ .tile{
+    display: inline-block;
+    width: 150px;
+  }
+  .bttn{
+    display: inline-block;
+    margin: 40px 40px; 
+    color: white;
+    padding: 10px 20px;
+  }
+  
 }
 
 
@@ -124,5 +163,28 @@
   }
   .intro2 p{
     font-size:larger;
+  }
+
+  .options{
+    max-width: unset;
+  }
+  .options img{
+    height: 145px;
+    width: 145px;
+  }
+  
+  .options h1{
+    font-weight:bolder;
+    font-size:19;
+  }
+  .tile{
+    display: inline-block;
+    width: 200px;
+  }
+  .bttn{
+    display: inline-block;
+    margin: 40px 40px; 
+    color: white;
+    padding: 10px 20px;
   }
 }
