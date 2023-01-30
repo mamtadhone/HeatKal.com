@@ -10,7 +10,7 @@
 
 .navigations {
   margin-bottom: 53px;
-  max-width: 200px;
+  max-width: 250px;
   margin: 0 auto;
 }
 .navigations a {
@@ -66,10 +66,10 @@
 }
 
 .options{
+  
   max-width: 250px;
   margin: 0 auto;
 }
-
 
 .options h1{
   font-weight: bold;
@@ -78,20 +78,45 @@
 
 .bttn{
   display: inline-block;
-  margin: 30px 15px; 
+  margin: 20px 15px 0 15px; 
   color: white;
-  border-radius: 10%;
+  border-radius: 5%;
+  font-weight: 700;
+  padding: 5px 10px;
 }
 .getStarted{
-  background-color: red;
+  background-color: #d52349;;
 }
 .learnMore{
   background-color: black;
 }
 
+.portfolio-class{
+  
+  max-width: 250px;
+  margin: 0 auto;
+}
+.portfolio-sequence img{
+  background-color: skyblue;
+  width: 240px;
+  height: 240px;
+}
+.portfolio-sequence button{
+  background-color: #252122;
+  padding: 10px 20px;
+  border-radius: 5%;
+  color: white;
+  font-weight: 500;
+    font-size: 1em;
+    margin: 30px 0;
+}
+
 
 
 @media screen and (min-width: 480px) {
+  .wrapper{
+    max-width: unset;
+  }
   .navigations a {
     margin: 0 30px 0 0;
   }
@@ -134,6 +159,15 @@
     margin: 40px 40px; 
     color: white;
     padding: 10px 20px;
+  }
+
+  .portfolio-class{
+  
+    max-width: unset;
+  }
+  .portfolio-sequence{
+    display: flex;
+    flex-wrap:nowrap;
   }
   
 }
