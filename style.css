@@ -76,7 +76,7 @@
   font-size: 17px;
 }
 
-.bttn{
+.setting-buttons .bttn{
   display: inline-block;
   margin: 20px 15px 0 15px; 
   color: white;
@@ -85,14 +85,13 @@
   padding: 5px 10px;
 }
 .getStarted{
-  background-color: #d52349;;
+  background-color: #d52349;
 }
 .learnMore{
   background-color: black;
 }
 
 .portfolio-class{
-  
   max-width: 250px;
   margin: 0 auto;
 }
@@ -109,6 +108,36 @@
   font-weight: 500;
     font-size: 1em;
     margin: 30px 0;
+}
+
+.blog-class{
+  max-width: 60%;
+  margin: 0 auto;
+}
+.sub-blog h{
+  font-size: 1.35em;
+  color: #252122;
+  font-weight: 600;
+}
+.sub-blog p{
+  margin: 25px 0;
+}
+.blog-buttons{
+  margin-bottom: 25px;
+}
+.blog-buttons .bttn{
+  display: inline-block;
+  margin: 20px 4px 0 4px; 
+  color: white;
+  border-radius: 5%;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.continue-reading{
+  background-color: #d52349;
+}
+.comments{
+  background-color: black;
 }
 
 
@@ -152,9 +181,9 @@
 
  .tile{
     display: inline-block;
-    width: 150px;
+    width: 32%;
   }
-  .bttn{
+  .setting-buttons .bttn{
     display: inline-block;
     margin: 40px 40px; 
     color: white;
@@ -167,7 +196,18 @@
   }
   .portfolio-sequence{
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
+  }
+  .sub-port{
+    width: 45%;
+    margin: 0 10px;
+  }
+
+  .blog-buttons .bttn{
+    display: inline-block;
+    margin: 30px 2px; 
+    color: white;
+    padding: 12px 12px;
   }
   
 }
@@ -213,10 +253,40 @@
   }
   .tile{
     display: inline-block;
-    width: 200px;
+    width: 27%;
   }
-  .bttn{
+  .setting-buttons .bttn{
     display: inline-block;
+    margin: 40px 40px; 
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .portfolio-class{
+  
+    max-width: unset;
+  }
+  .portfolio-sequence{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .sub-port{
+    width: 31%;
+    margin: 0 10px;
+  }
+
+  .blog-class{
+    max-width:unset
+  }
+  .blog-sequence{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .sub-blog{
+    width: 44%;
+    margin: 0 25px;
+  }
+  .blog-buttons .bttn{
     margin: 40px 40px; 
     color: white;
     padding: 10px 20px;
