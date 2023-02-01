@@ -183,23 +183,52 @@
       </div>
     </div>
     <script src="">
-      var element = document.getElementsByClassName('link');
-      //String, Number(Interger), Boolean, Array, object, Date
-      var _fname = 'Akshay'; //String
-      var lname = 'Kalaskar'; //String
-      var age = 18; //Number
-      var age1 = '18'; //String
-      var isAdult = false; //Boolean
+      var first_name = 'Mamta';
+      var last_name = 'Dhone';
+      var age_in_number = 25;
+      var age_in_string = '25';
+      var gender = 'female';
       var hobbies = ['Singing', 'Sketching'];
-      var student = {
-        name: 'Mamta',
-        rno: 222,
-      };
-      var dob = new Date();
+      var ID = { first_name: "Mamta", age_in_number: 25 };
+      var current_date = new Date();
+
+      console.log('First name is ', first_name);
+      console.log('Last name is ', last_name);
+      console.log('Age in number is ', age_in_number);
+      console.log('Age in string is ', age_in_string);
+      console.log('Gender is ', gender);
+      console.log('Array of hobbies is ', hobbies);
+      console.log('Created object as ID including first name and age is: ', ID);
+
+      if (gender === 'female') {
+        is_woman = true;
+      } else {
+        is_woman = false;
+      }
+
+      if (is_woman === true) {
+        console.log(first_name, ' is a woman');
+      } else {
+        console.log(first_name, ' is not a woman');
+      }
+
+      //var element = document.getElementsByClassName('link');
+      //String, Number(Interger), Boolean, Array, object, Date
+      // var _fname = 'Akshay'; //String
+      // var lname = 'Kalaskar'; //String
+      // var age = 18; //Number
+      // var age1 = '18'; //String
+      // var isAdult = false; //Boolean
+      // var hobbies = ['Singing', 'Sketching'];
+      // var student = {
+      //   name: 'Mamta',
+      //   rno: 222,
+      // };
+      // var dob = new Date();
       // console.log(fname, lname, age, isAdult, hobbies, student, dob);
       // console.log('type of dob - ', typeof dob);
-      console.log('_fname-', _fname);
-      console.log('age1-', typeof age1);
+      // console.log('_fname-', _fname);
+      // console.log('age1-', typeof age1);
 
       //if else, type
       // if (age1 === '18') {
